@@ -13,3 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+//=require jquery.carousel.min
+
+$(document).ready( function(){
+    $("div.carousel").carousel();
+});

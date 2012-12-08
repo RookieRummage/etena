@@ -1,0 +1,91 @@
+LOG:  database system was shut down at 2012-12-08 11:49:11 IST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2012-12-08 11:54:32 IST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2012-12-08 12:01:46 IST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  lock file "postmaster.pid" already exists
+HINT:  Is another postmaster (PID 80569) running in data directory "/usr/local/var/postgres"?
+LOG:  received fast shutdown request
+LOG:  aborting any active transactions
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2012-12-08 12:52:10 IST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2012-12-08 12:53:22 IST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "kavitha" does not exist
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
+LOG:  database system was shut down at 2012-12-08 12:59:20 IST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "kavitha" does not exist
+FATAL:  database "kavitha" does not exist
+FATAL:  database "kavitha" does not exist
+FATAL:  database "kavitha" does not exist
+FATAL:  role "postgres" does not exist
+FATAL:  role "root" does not exist
+FATAL:  database "kavitha" does not exist
+FATAL:  database "kavitha" does not exist
+FATAL:  database "kavitha" does not exist
+ERROR:  column "postgres" does not exist at character 25
+STATEMENT:  select pg_database_size("postgres")
+	;
+ERROR:  syntax error at or near "createdb" at character 1
+STATEMENT:  createdb etena;
+ERROR:  syntax error at or near "psql" at character 1
+STATEMENT:  psql etena;
+ERROR:  relation "etena" does not exist
+STATEMENT:  GRANT ALL on etena to postgres ;
+ERROR:  relation "etena" does not exist
+STATEMENT:  GRANT ALL on etena to postgres ;
+ERROR:  relation "etena" does not exist
+STATEMENT:  GRANT ALL privileges on etena to postgres ;
+ERROR:  relation "etena" does not exist
+STATEMENT:  GRANT ALL PRIVILEGES ON etena to postgres ;
+ERROR:  relation "etena" does not exist
+STATEMENT:  GRANT ALL on etena to postgres ;
+ERROR:  relation "etena" does not exist
+STATEMENT:  GRANT ALL on etena to etena ;
+ERROR:  relation "etena" does not exist
+STATEMENT:  GRANT ALL on etena to etena ;
+ERROR:  syntax error at or near "*" at character 14
+STATEMENT:  GRANT ALL on *.* to etena ;
+ERROR:  syntax error at or near "*" at character 14
+STATEMENT:  GRANT ALL on * to etena ;
+FATAL:  role "etena" is not permitted to log in
+FATAL:  role "postgres" does not exist
+FATAL:  role "etena" is not permitted to log in
+FATAL:  role "etena" is not permitted to log in
+FATAL:  role "etena" is not permitted to log in
+ERROR:  role "etena" cannot be dropped because some objects depend on it
+DETAIL:  privileges for database etena
+STATEMENT:  drop role etena;
+ERROR:  syntax error at or near "to" at character 41
+STATEMENT:  REVOKE ALL PRIVILEGES on DATABASE etena to etena WITH GRANT OPTION;
+ERROR:  syntax error at or near "WITH GRANT" at character 52
+STATEMENT:  REVOKE ALL PRIVILEGES on DATABASE etena from etena WITH GRANT OPTION;
+FATAL:  role "etena-P" does not exist
