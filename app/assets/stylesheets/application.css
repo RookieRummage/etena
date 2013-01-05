@@ -12,16 +12,3 @@
  *= require_tree .
  */
 
-
-.home_icon
-{
-    width: 64px;
-    height: 40px;
-}
-
-.custom-donate-button
-{
-    background-image: url("/images/donate.jpg") !important;
-    width: 173px !important;
-    height: 203px !important;
-}

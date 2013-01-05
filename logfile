@@ -89,3 +89,10 @@ STATEMENT:  REVOKE ALL PRIVILEGES on DATABASE etena to etena WITH GRANT OPTION;
 ERROR:  syntax error at or near "WITH GRANT" at character 52
 STATEMENT:  REVOKE ALL PRIVILEGES on DATABASE etena from etena WITH GRANT OPTION;
 FATAL:  role "etena-P" does not exist
+LOG:  database system was shut down at 2012-12-11 21:07:19 IST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
