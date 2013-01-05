@@ -4363,6 +4363,7 @@ a.thumbnail:hover {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+  height: 365px;
 }
 .hero-unit h1 {
   margin-bottom: 0;
